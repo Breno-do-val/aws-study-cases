@@ -14,7 +14,7 @@ In VM's, virtualization occurs at the hardware level whereas Containerization oc
 
 ## What is a container?
 
-It's a standardized unit of software designed to run quickly and reliably on it computing environment.
+It's a standardized unit of software designed to run quickly and reliably on any computing environment.
 
 ## Cloud Computing Optimization
 
@@ -39,4 +39,4 @@ This means you don't need to spend a certain amount of money up front for every 
 AWS Certified Solutions Architect Study Guide by Ben Piper and David Clinton.\
 [IBM Technology - Virtualization Explained](https://www.youtube.com/watch?v=FZR0rG3HKIk).\
 [IBM Technology - Containers vs VMs](https://www.youtube.com/watch?v=cjXI-yxqGTI).\
-[AWS Skill Builder](https://explore.skillbuilder.aws/learn/course/106/play/233/introduction-to-containers).\
+[AWS Skill Builder](https://explore.skillbuilder.aws/learn/course/106/play/233/introduction-to-containers).
