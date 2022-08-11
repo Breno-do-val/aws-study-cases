@@ -16,6 +16,9 @@ In VM's, virtualization occurs at the hardware level whereas Containerization oc
 
 It's a standardized unit of software designed to run quickly and reliably on any computing environment.
 
+### Isolation
+When using containers the processes are isolated, whereas in VM's the machines are isolated.
+
 ## Cloud Computing Optimization
 
 The cloud computing is a great choice because it's scalable, elastic and cost-effective. It offers you on-demand,
