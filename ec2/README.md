@@ -30,3 +30,57 @@ Connecting through SSH using terminal
 ```bash
 ssh ec2-user@ip-address -i myKey.pem
 ```
+
+### Turning EC2 into a web server
+
+Install the web server
+
+```bash
+yum install httpd -y
+```
+
+Going to directory where the pages are served
+
+```bash
+cd /var/www/html
+```
+
+Put a index.html with content in that directory
+
+Starting the web server
+
+```bash
+service httpd start
+```
+
+Ensure that the web server will turn back on when EC2 instance goes down and up again
+
+```bash
+chkconfig on
+```
+
+#### Useful commands when working from terminal
+
+Give a root priviledge
+
+```bash
+sudo su
+```
+
+Lock permissions down for a file
+
+```bash
+chmod 400 filename
+```
+
+Operating system updates
+
+```bash
+yum update -y
+```
+
+Creating SSH keys
+
+```bash
+ssh-keygen -f br-ec2-key
+```
